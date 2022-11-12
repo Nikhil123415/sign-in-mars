@@ -204,7 +204,7 @@ cursor: pointer;
 
     .fa-envelope{
 	margin-top: 48px;
-	margin-left: 3vw;
+	margin-left: 12px;
 	font-size: 14px;
     }
 
@@ -216,7 +216,7 @@ cursor: pointer;
     }
 
     .fa-lock{
-	margin-left: 3vw;
+	margin-left: 12px;
 	margin-top: 29px;
 	font-size: 18px;
     }
