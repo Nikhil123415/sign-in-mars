@@ -184,7 +184,7 @@ cursor: pointer;
 @media  screen and (max-width:430px) and (max-height:930px) {
     
     body{
-        background-size: 320vw 102vh;
+        background-size: 1210px 925px;
     }
     
     .container{
