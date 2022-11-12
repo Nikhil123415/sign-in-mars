@@ -184,15 +184,16 @@ cursor: pointer;
 @media  screen and (max-width:430px) and (max-height:930px) {
     
     body{
-        background-size: 1210px 1210px;
+        background-size: 1330px 1020px;
     }
     
     .container{
-        height: 500px;
+        height: 470px;
+        margin: 65px 19vw;
     }
     
     .form h1{
-        padding: 4vh 0vw 3vh 0vw;
+        padding: 30px 0vw 20px 0vw;
         font-size: 5vw;
     }
 
@@ -200,29 +201,28 @@ cursor: pointer;
         width: 190px;
         height: 35px;
         padding-left: 8vw;
+        margin: 36px 0 10px 0vw;
     }
 
     .fa-envelope{
-	margin-top: 48px;
-	margin-left: 12px;
-	font-size: 14px;
+        margin: 5.4vh 3vw;
+        font-size: 14px;
     }
 
     .password{
         width: 190px;
         height: 35px;
         padding-left: 8vw;
-        margin: 2vh 0vw 5vh 0vw;
+        margin: 18px 0 40px 0;
     }
 
     .fa-lock{
-	margin-left: 12px;
-	margin-top: 29px;
-	font-size: 18px;
+        margin-left: 3vw;
+        margin-top: 3.1vh;
     }
 
     .forget{
-        margin: -4vh 0 3vh 31vw;
+        margin: -37px 0 30px 31vw;
         font-size: 3vw;
     }
 
@@ -230,33 +230,37 @@ cursor: pointer;
         padding: 0.5vh 8vw;
     }
 
+    .box{
+        margin-top: 45px;
+    }
+
     .box hr{
         width: 25vw;
     }
 
     .box .hr1{
-        margin: 0.9vh 0 0 -26.6vw;
+        margin: 8px 0 0 -26.6vw;
     }
 
     .box .hr2{
-        margin: -1.1vh 0vw 0vw 6vw;
+        margin: -11px 0vw 0vw 6vw;
     }
 
     .create{
-        margin: 2vh 11vw;
+        margin: 25px 35px;
         letter-spacing: 0.134em;
     }
 
     .img{
         width: 64vw;
         height: 38vh;
-        margin: 0 0 0 17vw;
+        margin: 61px 0 0 72px;
         filter: none;
     }
     
     .img img{
-        margin-left: 7vw;
-        margin-top: 7vh;
+        margin-left: 30px;
+        margin-top: 70px;
         width: 70vw;
     }
 
