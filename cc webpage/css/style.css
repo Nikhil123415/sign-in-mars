@@ -203,8 +203,9 @@ cursor: pointer;
     }
 
     .fa-envelope{
-        margin-top: 5.2vh;
-        margin-left: 3vw;
+	margin-top: 48px;
+	margin-left: 3vw;
+	font-size: 14px;
     }
 
     .password{
@@ -215,8 +216,9 @@ cursor: pointer;
     }
 
     .fa-lock{
-        margin-left: 3vw;
-        margin-top: 3.1vh;
+	margin-left: 3vw;
+	margin-top: 29px;
+	font-size: 18px;
     }
 
     .forget{
