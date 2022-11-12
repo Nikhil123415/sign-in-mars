@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("/img/mars\ air.jpg");
+    background-size: 100vw 100vh;
+}
+
+.container {
+    width: 65vw;
+    height: 80vh;
+    background-color: #00000059;
+    margin: 10vh 19vw;
+    color: white;
+    box-shadow: 0px 0px 70px 12px black;
+}
+
+.form{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form h1{
+    padding: 18vh 0vw 3vh 0vw;
+    letter-spacing: 0.087em;
+}
+
+.email{
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    width: 20vw;
+height: 5vh;
+border-radius: 12px;
+margin: 4vh 0vw 1vh 0vw;
+border: 2px solid white;
+padding-left: 3vw;
+}
+
+.email:hover{
+    background-color: rgba(255, 68, 0, 0.178);
+}
+
+.email:active,
+.email:focus,
+.email:hover {
+	outline: none;
+    background-color: rgba(255, 68, 0, 0.178);
+}
+
+.password{
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    width: 20vw;
+    border: 2px solid white;
+    height: 5vh;
+    border-radius: 12px;
+    margin: 4vh 0vw 5vh 0vw;
+    padding-left: 3vw;    
+}
+
+.password:hover{
+    background-color: rgba(255, 68, 0, 0.178);
+}
+
+.password:active,
+.password:focus,
+.password:hover {
+	outline: none;
+    background-color: rgba(255, 68, 0, 0.178);
+}
+
+.fa{
+    position: absolute;
+}
+
+.fa-envelope{
+    margin-top: 5.3vh;
+margin-left: 1vw;
+}
+
+.fa-lock{
+    margin-top: 5.1vh;
+margin-left: 1vw;
+font-size: 21px;
+}
+
+.forget{
+    margin: -4vh 0 5vh 15vw;
+}
+.forget a{
+    color: orangered;
+}
+
+.form button{
+    padding: 0.5vh 2vw;
+font-size: 17px;
+background-color: #f5f5dc00;
+color: white;
+border-radius: 12px;
+border: 2px white solid;
+cursor: pointer;
+}
+
+.form button:hover{
+    background-color: rgba(255, 68, 0, 0.288);
+}
+
+.box .hr1{
+    margin:1.2vh 0 0 -13.6vw ;
+    position: absolute;
+}
+.box .hr2{
+    margin: -1.6vh 0vw 0vw 2vw;
+    position: absolute;
+}
+.box{
+    margin-top: 6vh;
+}
+.box hr{
+    color: white;
+    width: 13vw;
+}
+
+.create{
+    margin: 4vh 4vw;
+    letter-spacing: 0.134em;
+}
+
+.create a{
+    color: orangered;
+}
+
+.img img{
+    margin-left: 3vw;
+}
+
+.img{
+    width: 34vw;
+    height: 81vh;
+    margin:-81vh 0 0vh 31vw;
+    position: absolute;
+    overflow: hidden;
+    filter:drop-shadow(-19px 10px 17px black);
+
+}
+.img::before,
+.img::after {
+  content: "";
+  position: absolute;
+  width: 545px;
+  height: 636px;
+  border-top-left-radius: 40%;
+  border-top-right-radius: 45%;
+  border-bottom-left-radius: 35%;
+  border-bottom-right-radius: 40%;
+  z-index: -1;
+}
+.img::before {
+    left: 14%;
+    bottom: -10%;
+    background-color: #000;
+    animation: waves 6s infinite linear;
+    top: -15%;
+  }
+  .img::after {
+    left: 15%;
+    bottom: -32%;
+    background-color: #ea3e00;
+    animation: waves 6s infinite linear;
+  }
+  @keyframes waves {
+    from {
+      transform: rotate(0);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
