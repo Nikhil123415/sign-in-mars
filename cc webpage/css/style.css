@@ -183,7 +183,7 @@ cursor: pointer;
 @media  screen and (max-width:430px) and (max-height:930px) {
     
     body{
-        background-size: 320vw 100vh;
+        background-size: 320vw 102vh;
     }
     
     .container{
@@ -246,28 +246,28 @@ cursor: pointer;
 
     .img{
         width: 64vw;
-        height: 127vh;
-        margin: -89vh 0 0vh 17vw;
+        height: 38vh;
+        margin: 0 0 0 17vw;
         filter: none;
     }
     
     .img img{
         margin-left: 7vw;
-        margin-top: 96vh;
+        margin-top: 7vh;
         width: 70vw;
     }
 
     .img::before,
     .img::after{
-        width: 80vw;
+        width: 65vw;
         height: 30vh;
 
     }
 
     .img::before{
-        left: 10%;
+        left: 20%;
         bottom: 0;
-        top: 78%;
+        top: 15%;
     }
 
     .img::after{
